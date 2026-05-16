@@ -16,25 +16,16 @@ public class Avancado implements Cliente {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 
     public String getDetalhes() {
         return detalhes;
     }
 
-    public void setDetalhes(String detalhes) {
-        this.detalhes = detalhes;
-    }
 
     public String aceitar(Visitor visitor) {
         return visitor.exibirPlanoAvancado(this);
